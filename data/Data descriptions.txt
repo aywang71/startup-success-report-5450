@@ -1,0 +1,20 @@
+acquisitions; n = 9534
+- acquisition_id: company id that was acquired
+- acquiring_object_id: company id that was acquired 
+- term_code: cash or cash and stock
+- price_amount: integer, purchase price
+- price_currency_code: CCY
+- acquired_at: date of acquisition
+- metadata: id, acquired_object_id, source_url
+need to filter price_amount = 0
+probably need to filter or disregard term_code
+
+degrees; n = 109,611
+- object_id: people IDs (potential later use for joining, important)
+- degree: factor type, multiple categories
+- Institution: factor type, multiple (+) categories
+- graduated: date type
+- metadata: created_at, updated_at, id, subject (description - too large)
+
+funding_rounds; n = 52,929
+- 
